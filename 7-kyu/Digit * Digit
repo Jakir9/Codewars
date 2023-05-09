@@ -1,0 +1,9 @@
+function squareDigits(num) {
+  let arr = num.toString().split("");
+
+  for (i = 0; i < arr.length; i++) {
+    arr[i] = (parseInt(arr[i]) ** 2).toString();
+  }
+
+  return parseInt(arr.join(""));
+}

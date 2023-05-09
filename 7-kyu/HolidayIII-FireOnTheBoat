@@ -1,0 +1,6 @@
+function fireFight(s) {
+  //   .map
+  let newArray = s.split(" ");
+  let anotherArray = newArray.map((item) => item.replace("Fire", "~~"));
+  return anotherArray.join(" ");
+}
